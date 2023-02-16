@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div id="sketchContainer"></div>
+        <div id="formContainer">
+            <form id="circleForm">
+                <label for="color">Please choose color!</label>
+                <input name="color" id="colorValue" type="color" placeholder="Please choose Color">
+                <input name="size" id="sizeValue" type="number" placeholder="Please add Size">
+                <input name="x" id="xValue" type="number" placeholder="Please add x value">
+                <input name="y" id="yValue" type="number" placeholder="Please add y value">
+                <input type="submit" value="submit">
+            </form>
+        </div>
+
+    </div>
+    
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="js/firebase.js"></script>
+    <script src="js/script.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js" integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script src="js/sketch.js"></script>
+</body>
+</html>
